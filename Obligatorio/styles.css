@@ -1,18 +1,93 @@
-span {
-    position: relative;
+article{
+    margin-left:200px;
+    display:inline-block;
+    width:auto;
+    height:auto;
+}
+section,aside{
+    display:inline-block;
+}
+aside{
+    height:1600px;
+    width:400px;
+    float:right;
+    position:absolute;
+    background-color:lightgrey;
+}
+.searchBar {
+    position:absolute
 }
 
-span img {
+.searchBar, img {
     border-radius: 25px; 
     position: absolute; 
     top: 3px; 
     left: 2px;
 }
+span{
+    display:inline-block;
+}
 
-span input {
+.seeMore{
+    display:inline-block;
+    height:50px;
+    width:1100px;
+}
+
+.searchBar, input {
     color: grey; 
     border-radius: 25px; 
     border: 2px solid black; 
     text-align: center; 
     padding-left:0px;
+}
+figure{
+    display:inline-block;
+    height:20px;
+    width:20px;
+    position:relative;
+}
+#span1{
+    display:inline-block;
+    width:750px;
+    height:180px;
+    float:left;
+}
+.formLabel{
+    display:block;
+}
+form {
+    display: inline-block;
+    position: relative;
+    width: 750px;
+    height: 180px;
+    float: right;
+}
+#upLinks{
+    float:right;
+    position:relative;
+    display:inline-block;
+}
+p{
+    
+}
+img{
+    position:relative;
+}
+.eventsSection {
+    position: relative;
+    display: inline-block;
+    height: 320px;
+    width: 400px;
+}
+.hrefSeeMore{
+    text-align:right;
+    float:right;
+    width:60px;
+    position:relative;
+}
+.seeMore{
+    background-color:lightslategrey;
+    width: 1100px;
+    height:25px;
 }
