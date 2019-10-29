@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -36,51 +36,54 @@
         </nav>
     </aside>
 
-    <form action="/Obligatorio/admin/listado.html">
-        <span>
-            <h1>CREAR EVENTO</h1>
-            <p>Campos Obligatorios (*)</p>
+    <article>
+        <form action="/Obligatorio/admin/listado.html">
+            <span>
+                <h1>CREAR EVENTO</h1>
+                <p>Campos Obligatorios (*)</p>
 
-            <label for="txtEventName">Nombre de Evento (*)</label>
-            <input type="text" id="txtEventName" class="txtInput">
+                <label for="txtEventName" class="labelForm">Nombre de Evento (*)</label>
+                <input type="text" id="txtEventName" class="textForm">
 
-            <label for="slc1">Organizador (*)</label>
-            <select id="slc1">
-                <option>Opción 1</option>
-            </select>
+                <label for="slc1" class="labelForm">Organizador (*)</label>
+                <select id="slc1">
+                    <option>Opción 1</option>
+                </select>
 
-            <label for="txtLugar">Lugar (*)</label>
-            <input type="text" id="txtLugar">
+                <label for="txtLugar" class="labelForm">Lugar (*)</label>
+                <input type="text" id="txtLugar" class="textForm">
 
-            <label for="dateDate">Día (*)</label>
-            <input type="date" id="dateDate">
+                <label for="dateDate" class="labelForm">Día (*)</label>
+                <input type="date" id="dateDate" class="textForm">
 
-            <label for="dateTime">Hora (*)</label>
-            <input type="time" id="dateTime">
+                <label for="dateTime" class="labelForm">Hora (*)</label>
+                <input type="time" id="dateTime" class="textForm">
 
-            <label for="inputImage">Imagen</label>
-            <input type="file" id="inputImage">
-        </span>
-        <span>
-            <input type="checkbox" id="chckDestacar">
-            <label for="chckDestacar">Destacar</label>
+                <label for="inputImage" class="labelForm">Imagen</label>
+                <input type="file" id="inputImage" class="textForm">
+            </span>
+            <span>
+                <input type="checkbox" id="chckDestacar">
+                <label for="chckDestacar">Destacar</label>
 
-            <label for="txtPrecio1">Precio 1 (*)</label>
-            <input type="text" id="txtPrecio1">
+                <label for="txtPrecio1" class="labelForm">Precio 1 (*)</label>
+                <input type="text" id="txtPrecio1" class="inputForm">
 
-            <label for="txtPrecio2">Precio 2</label>
-            <input type="text" id="txtPrecio2">
+                <label for="txtPrecio2" class="labelForm">Precio 2</label>
+                <input type="text" id="txtPrecio2" class="inputForm">
 
-            <label for="txtPrecio3">Precio 3</label>
-            <input type="text" id="txtPrecio3">
+                <label for="txtPrecio3" class="labelForm">Precio 3</label>
+                <input type="text" id="txtPrecio3" class="inputForm">
 
-            <label>Más precios</label>
-            <input type="radio" id="radioYes">
-            <label for="radioYes">Si</label>
-            <input type="radio" id="radioNo">
-            <label for="radioNo">No</label>
-        </span>
-    </form>
+                <label class="labelForm">Más precios</label>
+                <input type="radio" id="radioYes">
+                <label for="radioYes">Si</label>
+                <input type="radio" id="radioNo">
+                <label for="radioNo">No</label>
+            </span>
+        </form>
+    </article>
+   
 </body>
 
 </html>

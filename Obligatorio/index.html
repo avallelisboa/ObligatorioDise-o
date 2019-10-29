@@ -13,15 +13,15 @@
 <body>
     <header>
         <nav>
-            <a href="#Agenda">Agenda</a>
-            <a href="#Noticias">Noticias</a>
-            <span id="upLinks">
+            <span id="upLinksLeft">
                 <img width="13" height="13" src="/Obligatorio/img/iconoBuscar.png" />
+                <a href="#Agenda">Agenda</a>
+                <a href="#Noticias">Noticias</a>
                 <input type="text" placeholder="DESCUBRIR EVENTOS" />
-            </span id="upLinks">
-            <span id="upLinks">
-                <a href="/admin/index.html">Ingresar</a>
-                <a href="#Ayuda">Ayuda</a>
+            </span>
+            <span id="upLinksRight">
+                <span><a href="/admin/index.html">Ingresar</a></span>
+                <span><a href="#Ayuda">Ayuda</a></span>                
             </span>
         </nav>
     </header>
@@ -104,34 +104,36 @@
         </section>
         <aside>
             <h2>Últimos cupos!</h2>
-            <section>
-                <img src="img/black.jpg" alt="black" width="300" height="200">
-                <h3>Nombre Evento</h3>
-                <p>Detalle sobre el evento</p>
-                <p>Precio</p>
-                <input type="button" value="COMPRAR" class="btnIndexBuy">
-            </section>
-            <section>
-                <img src="img/black.jpg" alt="black" width="300" height="200">
-                <h3>Nombre Evento</h3>
-                <p>Detalle sobre el evento</p>
-                <p>Precio</p>
-                <input type="button" value="COMPRAR" class="btnIndexBuy">
-            </section>
-            <section>
-                <img src="img/black.jpg" alt="black" width="300" height="200">
-                <h3>Nombre Evento</h3>
-                <p>Detalle sobre el evento</p>
-                <p>Precio</p>
-                <input type="button" value="COMPRAR" class="btnIndexBuy">
-            </section>
-            <section>
-                <img src="img/black.jpg" alt="black" width="300" height="200">
-                <h3>Nombre Evento</h3>
-                <p>Detalle sobre el evento</p>
-                <p>Precio</p>
-                <input type="button" value="COMPRAR" class="btnIndexBuy">
-            </section>
+            <ul>
+                <li class="liIndex">
+                    <img src="img/black.jpg" alt="black" width="300" height="200">
+                    <h3>Nombre Evento</h3>
+                    <p>Detalle sobre el evento</p>
+                    <p>Precio</p>
+                    <input type="button" value="COMPRAR" class="btnIndexBuy">
+                </li>
+                <li class="liIndex">
+                    <img src="img/black.jpg" alt="black" width="300" height="200">
+                    <h3>Nombre Evento</h3>
+                    <p>Detalle sobre el evento</p>
+                    <p>Precio</p>
+                    <input type="button" value="COMPRAR" class="btnIndexBuy">
+                </li>
+                <li class="liIndex">
+                    <img src="img/black.jpg" alt="black" width="300" height="200">
+                    <h3>Nombre Evento</h3>
+                    <p>Detalle sobre el evento</p>
+                    <p>Precio</p>
+                    <input type="button" value="COMPRAR" class="btnIndexBuy">
+                </li>
+                <li class="liIndex">
+                    <img src="img/black.jpg" alt="black" width="300" height="200">
+                    <h3>Nombre Evento</h3>
+                    <p>Detalle sobre el evento</p>
+                    <p>Precio</p>
+                    <input type="button" value="COMPRAR" class="btnIndexBuy">
+                </li>
+            </ul>
         </aside>
     </article>
 
@@ -155,23 +157,23 @@
 
     <section>
         <span id="span1">
-            <label class="formLabel">AYUDA</label>
-            <label class="formLabel">Preguntas Frecuentes</label>
+            <label class="labelForm">AYUDA</label>
+            <label class="labelForm">Preguntas Frecuentes</label>
 
-            <label class="formLabel"><b>Pregunta 1</b></label>
-            <label class="formLabel">Respuesta 1</label>
+            <label class="labelForm"><b>Pregunta 1</b></label>
+            <label class="labelForm">Respuesta 1</label>
 
-            <label class="formLabel"><b>Pregunta 2</b></label>
-            <label class="formLabel">Respuesta 2</label>
+            <label class="labelForm"><b>Pregunta 2</b></label>
+            <label class="labelForm">Respuesta 2</label>
 
-            <label class="formLabel"><b>Pregunta 3</b></label>
-            <label class="formLabel">Respuesta 3</label>
+            <label class="labelForm"><b>Pregunta 3</b></label>
+            <label class="labelForm">Respuesta 3</label>
         </span>        
-        <form>
+        <form class="indexForm">
             <span>
-                <label class="formLabel">SUSCRIBITE</label>
-                <label class="formLabel">¡Ingresa tu e-mail y enterate de todas nuestras novedades!</label>
-                <input type="email" class="txtRectangleInput" placeholder="juanperez@gmail.com">
+                <label class="labelForm">SUSCRIBITE</label>
+                <label class="labelForm">¡Ingresa tu e-mail y enterate de todas nuestras novedades!</label>
+                <input type="email" class="inputForm" placeholder="juanperez@gmail.com">
                 <input type="button" value="INGRESAR" class="btnIndexBuy">
             </span>
         </form>
