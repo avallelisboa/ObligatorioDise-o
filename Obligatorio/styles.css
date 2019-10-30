@@ -55,7 +55,7 @@ section{
 }
 #eventNav{
     display:inline-block;
-    height:auto;
+    height:1600px;
     width:auto;
 }
 #middleArticle{
@@ -73,6 +73,9 @@ section{
     margin-left:7%;
     width:100%;
 }
+table{
+    border-spacing:50px;
+}
 ul{
     list-style-type:none;
     width:auto;
@@ -83,9 +86,15 @@ li{
     font-size:20px;
     width:auto;
 }
+.iconLi{
+    display:inline;
+}
 .dataUser{
     float:right;
     clear:both;
+}
+.container{
+    display:flow-root;
 }
 footer{
     display:flex;
@@ -155,6 +164,10 @@ article{
     position: relative; 
     top: 3px; 
     left: 2px;
+}
+
+.searchBar{
+    margin-right:50px;
 }
 
 
@@ -236,6 +249,7 @@ input[type="checkbox"]{
 #spanHeaderListEvents{
     display:inline-block;
     float:left;
+    margin-left:50px;
 }
 #ulIndex:nth-child(2n+0) {
     /*white-space: pre-line;*/
@@ -247,11 +261,12 @@ input[type="checkbox"]{
 #ulListEvents{
     display:block;
 }
-#asideListEvents{
-    display:inline-block;
-    float:left;
-    width:300px;
-    height:800px;
+#asideListEvents {
+    display: inline-block;
+    float: left;
+    width: 300px;
+    height: 1600px;
+    background-color: #ceddef;
 }
 img{
     position:relative;
