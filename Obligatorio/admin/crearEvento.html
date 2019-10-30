@@ -5,23 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="" />
     <title>Creación de Evento</title>
     <link href="../styles.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 </head>
 
 <body>
-    <aside>
-        <nav>
+    <aside id="eventAside">
+        <nav id="eventNav">
             <ul>
                 <li>
                     <a href="#">Dashboard</a>
                 </li>
                 <li>
-                    <a href="/admin/crearEvento.html">Crear Evento</a>
+                    <a href="crearEvento.html">Crear Evento</a>
                 </li>
                 <li>
-                    <a href="/admin/listado.html">Listado de Eventos</a>
+                    <a href="listado.html">Listado de Eventos</a>
                 </li>
                 <li>
                     <a href="#">Reportes</a>
@@ -36,7 +37,7 @@
         </nav>
     </aside>
 
-    <article>
+    <article id="evento">
         <form action="/Obligatorio/admin/listado.html">
             <span>
                 <h1>CREAR EVENTO</h1>
@@ -76,14 +77,14 @@
                 <input type="text" id="txtPrecio3" class="inputForm">
 
                 <label class="labelForm">Más precios</label>
-                <input type="radio" id="radioYes">
+                <input type="radio" id="radioYes" name="radioYesNo">
                 <label for="radioYes">Si</label>
-                <input type="radio" id="radioNo">
+                <input type="radio" id="radioNo" name="radioYesNo">
                 <label for="radioNo">No</label>
             </span>
         </form>
     </article>
-   
+
 </body>
 
 </html>

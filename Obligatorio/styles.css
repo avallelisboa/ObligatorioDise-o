@@ -1,36 +1,99 @@
+body {
+    background-color: #070d59;
+    color: #ceddef;
+    
+}
+
+main{
+    clear: both;
+}
+
+a:link {
+    background-color: #5893d4;
+    color: #ceddef;
+    padding: 5px;
+    border-color: #ceddef;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+a:visited {
+    background-color: #5893d4;
+    color: #ceddef;
+    padding: 5px;
+    border-color: #ceddef;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #7cb9fa;
+    color: #ceddef;
+    padding: 5px;
+    border-color: #ceddef;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #5893d4;
+}
+
 article{
     margin-left:200px;
     margin-bottom:50px;
+    clear:both;
+    overflow:visible;
     display:inline-block;
     width:auto;
     height:auto;
+    float right;
 }
-#bottomArticle{
-    width:1800px;
+#eventNav{
+    display:inline-block;
+    height:auto;
+    width:auto;
+}
+#middleArticle{
+    width:auto;
     height:500px;
 }
 ul{
     list-style-type:none;
 }
 footer{
-    background-color:black;
+    background-color: #1f3c88;
     height:100px;
     width: 1900px;
 }
 header{
     display:inline-block;
+    background-color: #1f3c88;
     width:1900px;
     height:100px;
 }
 section,aside, span{
     display:inline-block;
 }
-aside{
+
+#evento {
+    margin-left:400px;
+}
+
+#eventAside {
+    height: 700px;
+    width: 200px;
+    float: left;
+    position: absolute;
+    background-color: #5893d4;
+}
+
+#indexAside{
     height:1820px;
     width:400px;
-    float:right;
+    float:left;
     position:absolute;
-    background-color:lightgrey;
+    background-color: #5893d4;
 }
 .searchBar {
     position:absolute
@@ -49,17 +112,24 @@ aside{
 }
 
 .searchBar, input {
-    color: grey; 
+    color: azure;
+    background-color: rgb(30, 73, 192);
     border-radius: 25px; 
-    border: 2px solid black; 
+    border: 2px solid azure; 
     text-align: center; 
-    padding-left:0px;
+    padding: 5px;
 }
 #span1{
-    width:750px;
+    width:auto;
     height:180px;
     float:left;
     margin-left:200px;
+}
+.indexForm {
+    width: auto;
+    height: 180px;
+    margin-left:200px;
+    float: right;
 }
 .labelForm, checkbox{
     display:block;
@@ -68,11 +138,7 @@ form {
     display: inline-block;
     position: relative;
 }
-.indexForm { 
-    width: auto;
-    height: 180px;
-    float: right;
-}
+
 #upLinksRight{
     float:right;
     position:relative;
@@ -89,7 +155,7 @@ form {
     position: relative;
     display: inline-block;
     text-shadow: 2px 2px;
-    background-color:gray;
+    background-color:darkcyan;
 }
 
 #upLinksLeft:hover {
@@ -98,19 +164,21 @@ form {
     display: inline-block;
     margin-left: 400px;
     text-shadow: 2px 2px;
-    background-color:gray;
+    background-color:darkcyan;
 }
-checkbox{
-    
+
+#ulIndex:nth-child(){
+    white-space:pre-line;
 }
+
 img{
     position:relative;
 }
-.eventsSection {
+.eventsSpan {
     position: relative;
     display: inline-block;
-    height: 320px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
 }
 .hrefSeeMore{
     text-align:right;
@@ -119,10 +187,10 @@ img{
     position:relative;
 }
 .seeMore {
-    background-color: lightslategrey;
+    background-color: rgb(35, 58, 82);
     display: inline-block;
-    height: 50px;
-    width: 1100px;
+    height: auto;
+    width: 800px;
     margin-top: 100px;
     margin-bottom: 50px;
 }
@@ -131,7 +199,10 @@ img{
     margin-bottom:70px;
 }
 .bottomSection {
-    background-color: lightslategrey;
+    background-color: rgb(35, 58, 82);
     height: 50px;
     width: 1100px;
+    display:inline-block;
+    overflow:auto;
+    clear:both;
 }

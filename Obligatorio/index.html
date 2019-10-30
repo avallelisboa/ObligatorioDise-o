@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content=""/>
     <title>Document</title>
     <link href="styles.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
@@ -17,118 +18,121 @@
                 <img width="13" height="13" src="/Obligatorio/img/iconoBuscar.png" />
                 <a href="#Agenda">Agenda</a>
                 <a href="#Noticias">Noticias</a>
+                <a href="admin/index.html">Ingresar</a>
+                <a href="#Ayuda">Ayuda</a>
                 <input type="text" placeholder="DESCUBRIR EVENTOS" />
             </span>
             <span id="upLinksRight">
                 <span><a href="/admin/index.html">Ingresar</a></span>
-                <span><a href="#Ayuda">Ayuda</a></span>                
+                <span><a href="#Ayuda">Ayuda</a></span>
             </span>
         </nav>
     </header>
     <main>
-        <article>
-            <h1>AGENDA</h1>
-            <section>
+        <section>
+            <h1 id="Agenda">AGENDA</h1>
+            <article>
                 <h2>Música</h2>
-                <section class="eventsSection">
-                    <img src="img/black.jpg" alt="black" width="300" height="200" />
+                <span class="eventsSpan">
+                    <img src="img/smile.png" alt="black" width="200" height="150" />
                     <h3>Nombre Show</h3>
                     <p>Detalle sobre el Show</p>
                     <p>Precio</p>
                     <input type="button" value="COMPRAR" class="btnIndexBuy" />
-                </section>
-                <section class="eventsSection">
-                    <img src="img/black.jpg" alt="black" width="300" height="200">
+                </span>
+                <span class="eventsSpan">
+                    <img src="img/smile.png" alt="black" width="200" height="150">
                     <h3>Nombre Show</h3>
                     <p>Detalle sobre el Show</p>
                     <p>Precio</p>
                     <input type="button" value="COMPRAR" class="btnIndexBuy">
-                </section>
-                <section class="eventsSection">
-                    <img src="img/black.jpg" alt="black" width="300" height="200">
+                </span>
+                <span class="eventsSpan">
+                    <img src="img/smile.png" alt="black" width="200" height="150">
                     <h3>Nombre Show</h3>
                     <p>Detalle sobre el Show</p>
                     <p>Precio</p>
                     <input type="button" value="COMPRAR" class="btnIndexBuy">
-                </section>
+                </span>
                 <span class="seeMore"><a href="" class="hrefSeeMore">Ver Mas</a></span>
 
                 <h2>Conferencias</h2>
-                <section class="eventsSection">
-                    <img src="img/black.jpg" alt="black" width="300" height="200">
+                <span class="eventsSpan">
+                    <img src="img/smile.png" alt="black" width="200" height="150">
                     <h3>Nombre Conferencia</h3>
                     <p>Detalle sobre la conferencia</p>
                     <p>Precio</p>
                     <input type="button" value="COMPRAR" class="btnIndexBuy">
-                </section>
-                <section class="eventsSection">
-                    <img src="img/black.jpg" alt="black" width="300" height="200">
+                </span>
+                <span class="eventsSpan">
+                    <img src="img/smile.png" alt="black" width="200" height="150">
                     <h3>Nombre Conferencia</h3>
                     <p>Detalle sobre la conferencia</p>
                     <p>Precio</p>
                     <input type="button" value="COMPRAR" class="btnIndexBuy">
-                </section>
-                <section class="eventsSection">
-                    <img src="img/black.jpg" alt="black" width="300" height="200">
+                </span>
+                <span class="eventsSpan">
+                    <img src="img/smile.png" alt="black" width="200" height="150">
                     <h3>Nombre Conferencia</h3>
                     <p>Detalle sobre la conferencia</p>
                     <p>Precio</p>
                     <input type="button" value="COMPRAR" class="btnIndexBuy">
-                </section>
-                <section>
+                </span>
+                <span>
                     <span class="seeMore"><a href="" class="hrefSeeMore">Ver Mas</a></span>
-                </section>
+                </span>
 
                 <h2>Deportes</h2>
-                <section class="eventsSection">
-                    <img src="img/black.jpg" alt="black" width="300" height="200">
+                <span class="eventsSpan">
+                    <img src="img/smile.png" alt="black" width="200" height="150">
                     <h3>Nombre Partido</h3>
                     <p>Detalle sobre el partido</p>
                     <p>Precio</p>
                     <input type="button" value="COMPRAR" class="btnIndexBuy">
-                </section>
-                <section class="eventsSection">
-                    <img src="img/black.jpg" alt="black" width="300" height="200">
+                </span>
+                <span class="eventsSpan">
+                    <img src="img/smile.png" alt="black" width="200" height="150">
                     <h3>Nombre Partido</h3>
                     <p>Detalle sobre el partido</p>
                     <p>Precio</p>
                     <input type="button" value="COMPRAR" class="btnIndexBuy">
-                </section>
-                <section class="eventsSection">
-                    <img src="img/black.jpg" alt="black" width="300" height="200">
+                </span>
+                <span class="eventsSpan">
+                    <img src="img/smile.png" alt="black" width="200" height="150">
                     <h3>Nombre Partido</h3>
                     <p>Detalle sobre el partido</p>
                     <p>Precio</p>
                     <input type="button" value="COMPRAR" class="btnIndexBuy">
-                </section>
+                </span>
                 <span class="seeMore"><a href="" class="hrefSeeMore">Ver Mas</a></span>
-            </section>
-            <aside>
+                <!-- puede ser solamente el a, sacando el span-->
+            </article>
+            <aside id="indexAside">
                 <h2>Últimos cupos!</h2>
                 <ul>
                     <li class="liIndex">
-                        <img src="img/black.jpg" alt="black" width="300" height="200">
+                        <img src="img/smile.png" alt="black" width="200" height="150">
                         <h3>Nombre Evento</h3>
                         <p>Detalle sobre el evento</p>
                         <p>Precio</p>
                         <input type="button" value="COMPRAR" class="btnIndexBuy">
                     </li>
                     <li class="liIndex">
-                        <img src="img/black.jpg" alt="black" width="300" height="200">
+                        <img src="img/smile.png" alt="black" width="200" height="150">
                         <h3>Nombre Evento</h3>
                         <p>Detalle sobre el evento</p>
                         <p>Precio</p>
                         <input type="button" value="COMPRAR" class="btnIndexBuy">
                     </li>
                     <li class="liIndex">
-                        <img src="img/black.jpg" alt="black" width="300" height="200">
+                        <img src="img/smile.png" alt="black" width="200" height="150">
                         <h3>Nombre Evento</h3>
                         <p>Detalle sobre el evento</p>
                         <p>Precio</p>
                         <input type="button" value="COMPRAR" class="btnIndexBuy">
                     </li>
                     <li class="liIndex">
-                        <img src="img/black.jpg" alt="black" width="300" height="200">
+                        <img src="img/smile.png" alt="black" width="200" height="150">
                         <h3>Nombre Evento</h3>
                         <p>Detalle sobre el evento</p>
                         <p>Precio</p>
@@ -136,57 +140,76 @@
                     </li>
                 </ul>
             </aside>
-        </article>
-
-        <article id="bottomArticle">
-            <h2>Noticias</h2>
-            <span>
-                <img src="img/black.jpg" alt="black" width="300" height="200">
-                <span>
-                    <h3>Noticia</h3>
-                    <p>Detalle sobre el evento</p>
-                    <p>Precio</p>
-                    <input type="button" value="LEER MÀS" class="btnIndexBuy">
-                </span>                
-            </span>
-            <span>
-                <img src="img/black.jpg" alt="black" width="300" height="200">
-                <span>
-                    <h3>Noticia</h3>
-                    <p>Detalle sobre el evento</p>
-                    <p>Precio</p>
-                    <input type="button" value="LEER MÀS" class="btnIndexBuy">
-                </span>                
-            </span>
-        </article>
-
-        <section id="bottomSection">
-            <span id="span1">
-                <label class="labelForm">AYUDA</label>
-                <label class="labelForm">Preguntas Frecuentes</label>
-
-                <label class="labelForm"><b>Pregunta 1</b></label>
-                <label class="labelForm">Respuesta 1</label>
-
-                <label class="labelForm"><b>Pregunta 2</b></label>
-                <label class="labelForm">Respuesta 2</label>
-
-                <label class="labelForm"><b>Pregunta 3</b></label>
-                <label class="labelForm">Respuesta 3</label>
-            </span>
-            <form class="indexForm">
-                <span>
-                    <label class="labelForm">SUSCRIBITE</label>
-                    <label class="labelForm">¡Ingresa tu e-mail y enterate de todas nuestras novedades!</label>
-                    <input type="email" class="inputForm" placeholder="juanperez@gmail.com">
-                    <input type="button" value="INGRESAR" class="btnIndexBuy">
-                </span>
-            </form>
-
         </section>
 
+        <article id="middleArticle">
+            <h1 id="Noticias">Noticias</h1>
+            <span>
+                <img src="img/smile.png" alt="black" width="200" height="150">
+                <span>
+                    <h3>Noticia</h3>
+                    <p>Detalle sobre el evento</p>
+                    <p>Precio</p>
+                    <input type="button" value="LEER MÀS" class="btnIndexBuy">
+                </span>
+            </span>
+            <span>
+                <img src="img/smile.png" alt="black" width="200" height="150">
+                <span>
+                    <h3>Noticia</h3>
+                    <p>Detalle sobre el evento</p>
+                    <p>Precio</p>
+                    <input type="button" value="LEER MÀS" class="btnIndexBuy">
+                </span>
+            </span>
+        </article>
+
+        <article id="bottomSection">            
+            <span id="span1">
+                <h1 id="Ayuda">AYUDA</h1>
+                <p><b>Preguntas Frecuentes</b></p>
+                <ul id="ulIndex">
+                    <li>
+                        Pregunta 1
+                    </li>
+                    <li>
+                        Respuesta 1
+                    </li>
+                    <li>
+                        Pregunta 2
+                    </li>
+                    <li>
+                        Respuesta 2
+                    </li>
+                    <li>
+                        Pregunta 3
+                    </li>
+                    <li>
+                        Respuesta 3
+                    </li>
+                </ul>
+            </span>
+            <form class="indexForm">
+                    <ul>
+                        <li>
+                            SUSCRIBITE
+                        </li>
+                        <li>
+                            ¡Ingresa tu e-mail y enterate de todas nuestras novedades!
+                        </li>
+                        <li>
+                            <input type="email" class="inputForm" placeholder="juanperez@gmail.com">
+                        </li>
+                        <li>
+                            <input type="button" value="INGRESAR" class="btnIndexBuy">
+                        </li>
+                    </ul>
+            </form>
+
+        </article>
+
     </main>
-    
+
     <footer>
         <label>@Copyright 2019 - Titulo del Sitio</label>
     </footer>
