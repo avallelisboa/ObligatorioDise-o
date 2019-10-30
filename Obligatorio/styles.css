@@ -330,8 +330,9 @@ img{
 
 #copyRightContainer{
     width:65%;
+    float:left;
 }
 
 #imagesFooterContainer{
-
+    float:right;
 }
