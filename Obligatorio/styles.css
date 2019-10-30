@@ -322,3 +322,12 @@ img{
 #tbl1 a:link, a:hover, a:visited{
     background-color: none;
 }
+
+#copyRightText{
+    float:left;
+    margin-left:10px;
+}
+
+#copyRightContainer{
+    width:65%;
+}
