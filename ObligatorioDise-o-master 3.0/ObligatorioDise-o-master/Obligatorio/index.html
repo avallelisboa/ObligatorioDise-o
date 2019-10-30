@@ -32,25 +32,25 @@
         </nav>
     </header>
     <main>
-        <article>
+        <section>
             <h1 id="Emotions">EMOTIONS!</h1>
-            <section class="indexEventsContainer">
+            <article>
                 <h2>Global emoji</h2>
-                <span>
+                <span class="eventsSpan">
                     <img src="img/smile.png" alt="smile" width="200" height="150" />
                     <h3>Smile</h3>
                     <p>Smiling is good for you</p>
                     <p>You can be happy for only $99.99!</p>
                     <input type="button" value="BUY" class="btnIndexBuy" />
                 </span>
-                <span>
+                <span class="eventsSpan">
                     <img src="img/sad.png" alt="sad" width="200" height="150">
                     <h3>Sad</h3>
                     <p>It's alright, things will get better!</p>
                     <p>The cost is $99.99 and requires a prescription</p>
                     <input type="button" value="BUY" class="btnIndexBuy">
                 </span>
-                <span>
+                <span class="eventsSpan">
                     <img src="img/angry.png" alt="angry" width="200" height="150">
                     <h3>Angry</h3>
                     <p>Whoa there!</p>
@@ -109,7 +109,7 @@
                 </span>
                 <span class="seeMore"><a href="" class="hrefSeeMore">Ver Mas</a></span>
                 <!-- puede ser solamente el a, sacando el span-->
-            </section>
+            </article>
             <aside id="indexAside">
                 <h2>Featured!</h2>
                 <ul>
@@ -143,11 +143,11 @@
                     </li>
                 </ul>
             </aside>
-        </article>
+        </section>
 
-        <article id="middleArticle"class="indexContainer">
-            <h1 id="noticiasTittle">Noticias</h1>
-            <span id="middleSpan1">
+        <article id="middleArticle">
+            <h1 id="Noticias">Noticias</h1>
+            <span>
                 <img src="img/gasp.png" alt="gasp" width="200" height="150">
                 <span>
                     <h3>A most upsetting scandal!</h3>
@@ -156,7 +156,7 @@
                     <input type="button" value="READ MORE" class="btnIndexBuy">
                 </span>
             </span>
-            <span id="middleSpan2">
+            <span>
                 <img src="img/dibbles.png" alt="black" width="200" height="150">
                 <span>
                     <h3>Man personifies the devil into a phone!</h3>
@@ -167,8 +167,8 @@
             </span>
         </article>
 
-        <article id="bottomArticle" class="indexContainer">
-            <span id="bottomSpan1">
+        <article id="bottomSection">
+            <span id="span1">
                 <h1 id="Help">HELP</h1>
                 <p><b>Frequent Questions</b></p>
                 <ul id="ulIndex">
@@ -193,24 +193,23 @@
                     
                 </ul>
             </span>
-            <span id="bottomSpan2">
-                <form class="indexForm">
-                    <ul>
-                        <li>
-                            SUBSCRIBE
-                        </li>
-                        <li>
-                            ¡Enter your E-mail and find out all about us!
-                        </li>
-                        <li>
-                            <input type="email" class="inputForm" placeholder="juanperez@gmail.com">
-                        </li>
-                        <li>
-                            <input type="button" value="ENTER" class="btnIndexBuy">
-                        </li>
-                    </ul>
-                </form>
-            </span>
+            <form class="indexForm">
+                <ul>
+                    <li>
+                        SUBSCRIBE
+                    </li>
+                    <li>
+                        ¡Enter your E-mail and find out all about us!
+                    </li>
+                    <li>
+                        <input type="email" class="inputForm" placeholder="juanperez@gmail.com">
+                    </li>
+                    <li>
+                        <input type="button" value="ENTER" class="btnIndexBuy">
+                    </li>
+                </ul>
+            </form>
+
         </article>
 
     </main>

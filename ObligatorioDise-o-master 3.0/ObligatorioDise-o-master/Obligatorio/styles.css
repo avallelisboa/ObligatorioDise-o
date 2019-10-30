@@ -1,16 +1,11 @@
 body {
     background-color: #070d59;
     color: #ceddef;
-    clear:both;
-    margin:auto;
+    
 }
 
 main{
-    display:flex;
-    margin:auto;
     clear: both;
-    flex-direction:row;
-    flex-wrap:wrap;
 }
 
 a:link {
@@ -42,14 +37,15 @@ a:hover {
 
 button:hover {
     background-color: #5893d4;
-    height: 100%;
-    width: 100%;
 }
 
-section{
+article{
+    margin-left:200px;
+    margin-bottom:50px;
     clear:both;
+    overflow:visible;
     display:inline-block;
-    width:75%;
+    width:auto;
     height:auto;
     float right;
 }
@@ -59,70 +55,30 @@ section{
     width:auto;
 }
 #middleArticle{
-    width:100%;
-}
-#middleSpan1{
-    float:right;
-}
-#middleSpan2{
-    float: left;
-}
-#noticiasTittle{
-    display:inline-block;
-    text-align:left;
-    margin-left:7%;
-    width:100%;
+    width:auto;
+    height:500px;
 }
 ul{
     list-style-type:none;
-    width:auto;
-    height:100%;
 }
 li{
     padding-bottom:20px;
     font-size:20px;
-    width:auto;
-}
-.dataUser{
-    float:right;
-    clear:both;
 }
 footer{
-    display:flex;
-    clear:both;
-    margin:auto;
-    flex-direction:row;
-    flex-wrap:wrap;
     background-color: #1f3c88;
     height:100px;
-    width: 100%;
+    width: 1900px;
 }
 header{
+    display:inline-block;
     background-color: #1f3c88;
-    width:auto;
+    width:1900px;
     height:100px;
 }
-aside, span{
+section,aside, span{
     display:inline-block;
     clear:both;
-    margin: auto;
-}
-.indexEventsContainer{
-    margin-left:10%;
-    width:65%;
-}
-.indexContainer{
-    display:flex;
-    clear:both;
-    margin:auto;
-    flex-direction:row;
-    flex-wrap:wrap;
-}
-
-article{
-    display:inline-block;
-    clear: both;
-    margin:auto;
 }
 
 #evento {
@@ -130,20 +86,18 @@ article{
 }
 
 #eventAside {
-    height: auto;
-    width: auto;
+    height: 700px;
+    width: 200px;
     float: left;
     position: absolute;
     background-color: #5893d4;
 }
 
 #indexAside{
-    height:2000px;
-    width:25%;
-    float:right;
-    position:relative;
-    clear:both;
-    margin:auto;
+    height:1820px;
+    width:400px;
+    float:left;
+    position:absolute;
     background-color: #5893d4;
 }
 .searchBar {
@@ -152,7 +106,7 @@ article{
 
 .searchBar, img {
     border-radius: 25px; 
-    position: relative; 
+    position: absolute; 
     top: 3px; 
     left: 2px;
 }
@@ -191,19 +145,8 @@ article{
 form {
     display: inline-block;
     position: relative;
-    width:auto;
 }
 
-input[type="checkbox"]{
-    display:inline;
-    text-align:left;
-}
-
-.formText{
-    position:center;
-    display:block;
-    width:100%;
-}
 #upLinksRight{
     float:right;
     position:relative;
@@ -262,20 +205,6 @@ img{
     height: 300px;
     width: 300px;
 }
-.loginContainer{
-    margin:auto;
-    text-align:center;
-    width:50%;
-    display:flex;
-    flex-direction:row;
-    flex-wrap:wrap;
-}
-#imageLogin{
-    margin:auto;
-    margin-bottom:50px;
-    display:block;
-    text-align:center;
-}
 .hrefSeeMore{
     text-align:right;
     float:right;
@@ -294,29 +223,13 @@ img{
     margin-top:70px;
     margin-bottom:70px;
 }
-#bottomArticle{
-    margin-top:100px;
-}
 .bottomSection {
-    background-color:rgb(35, 58, 82);
-    height:50px;
-    width:100%;
-    display:flex;
-    flex-direction:row;
-    flex-wrap:wrap;
-    margin:auto;
+    background-color: rgb(35, 58, 82);
+    height: 50px;
+    width: 1100px;
+    display:inline-block;
+    overflow:auto;
     clear:both;
-}
-
-#bottomSpan1{
-    width:auto;
-    height:auto;
-    float:right;
-}
-#bottomSpan2 {
-    width: auto;
-    height: auto;
-    float:left;
 }
 
 #tbl1 a:link, a:hover, a:visited{

@@ -12,21 +12,22 @@
 </head>
 
 <body>
-    <form action="crearEvento.html">
-        <h1>INGRESAR</h1>
-        <p>Todos los campos son obligatorios</p>
-
-        <label for="txtUsr">Usuario</label>
-        <input type="text" id="txtUrs" placeholder="Nombre de Usuario">
-
-        <label for="txtPass">Contraseña</label>
-        <input type="password" id="txtPass" placegolder="Contraseña">
-
-        <input type="checkbox" id="chkRememberData">
-        <label for="chkRememberData">Recordar Datos</label>
-
-        <input type="submit" class="btnIndexBuy" value="LOGIN">
-    </form>
+    <section class="loginContainer">
+        <span class="loginContainer">
+            <form action="crearEvento.html">
+                <h1>INGRESAR</h1>
+                <p>Todos los campos son obligatorios</p>
+                <img id="imageLogin" src="../img/logo.png" alt="logo" width="100" height="100">
+                <label class="formText" for="txtUsr">Usuario</label>
+                <input class="formText" type="text" id="txtUrs" placeholder="Nombre de Usuario">
+                <label class="formText" for="txtPass">Contraseña</label>
+                <input class="formText" type="password" id="txtPass" placegolder="Contraseña">
+                <input type="checkbox" id="chkRememberData">
+                <label for="chkRememberData">Recordar Datos</label>
+                <input class="formText" type="submit" class="btnIndexBuy" value="LOGIN">
+            </form>
+        </span>
+    </section>        
 </body>
 
 </html>
