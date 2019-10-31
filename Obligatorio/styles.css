@@ -54,12 +54,14 @@ section{
     height:1600px;
     width:auto;
 }
-#middleArticle{
-    width:100%;
-    margin-left:4%;
+#middleArticle {
+    display: flex;
+    width: 100%;
+    background-color: #5893d4;
 }
 #middleSpan1{
     float:right;
+    margin-left:10%
 }
 #middleSpan2{
     float: left;
@@ -67,7 +69,7 @@ section{
 #News{
     display:inline-block;
     text-align:left;
-    margin-left:7%;
+    margin-left:11%;
     width:100%;
 }
 
@@ -306,6 +308,7 @@ img{
 }
 #bottomArticle{
     margin-top:100px;
+    display:contents;
 }
 .bottomSection {
     background-color:rgb(35, 58, 82);
@@ -328,13 +331,12 @@ img{
 }
 
 #bottomSpan1{
-    width:auto;
+    width:34%;
     height:auto;
 }
 #bottomSpan2 {
-    width: auto;
+    width: 34%;
     height: auto;
-    float:left;
 }
 
 /*table stuff begins*/
