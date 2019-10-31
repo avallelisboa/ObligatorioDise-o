@@ -74,9 +74,7 @@ section{
     margin-left:7%;
     width:100%;
 }
-table{
-    border-spacing:50px;
-}
+
 ul{
     list-style-type:none;
     width:auto;
@@ -142,7 +140,7 @@ article{
 #eventAside {
     height: auto;
     width: auto;
-    float: left;
+    float: 1600px;
     position: absolute;
     background-color: #5893d4;
 }
@@ -259,9 +257,12 @@ input[type="checkbox"]{
 #asideListEvents {
     display: inline-block;
     float: left;
-    width: 300px;
+    width: 13%;
     height: 1600px;
-    background-color: #ceddef;
+    background-color: #5893d4;*/
+}
+#listEventsArticle{
+    width: 87%;
 }
 img{
     position:relative;
@@ -330,9 +331,24 @@ img{
     float:left;
 }
 
-#tbl1 a:link, a:hover, a:visited{
-    background-color: none;
+/*table stuff begins*/
+
+table {
+    width: 1300px;
+    text-align: center;
+    height: 300px;
+    border-collapse: collapse;
 }
+
+table{
+    border-spacing:50px;
+}
+
+tr:nth-child(even) {
+    background-color: #073668;
+}
+
+/*table stuff ends*/
 
 #copyRightText{
     margin-left:10%;
