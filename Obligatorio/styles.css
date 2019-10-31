@@ -140,7 +140,6 @@ article{
 #eventAside {
     height: auto;
     width: auto;
-    float: 1600px;
     position: absolute;
     background-color: #5893d4;
 }
@@ -274,13 +273,16 @@ img{
     width: 300px;
     margin-bottom:190px;
 }
-.loginContainer{
-    margin:auto;
+.loginContainer {
+    position:relative;
+    width: 100%;
     text-align:center;
-    width:50%;
-    display:flex;
-    flex-direction:row;
-    flex-wrap:wrap;
+}
+#loginForm {
+    text-align:center;
+    position:relative;
+    margin-top:10%;
+    margin-bottom:50%;
 }
 #imageLogin{
     margin:auto;
@@ -320,10 +322,18 @@ img{
     clear:both;
 }
 
+#crearEventoSection{
+    display:inline;
+}
+
+#logoCrearEvento{
+    text-align:right;
+    margin-left:200px;
+}
+
 #bottomSpan1{
     width:auto;
     height:auto;
-    float:right;
 }
 #bottomSpan2 {
     width: auto;
