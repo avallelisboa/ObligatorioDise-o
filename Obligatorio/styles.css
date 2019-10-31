@@ -4,7 +4,6 @@ body {
     clear:both;
     margin:auto;
 }
-
 main{
     display:flex;
     margin:auto;
@@ -18,7 +17,6 @@ a:link {
     color: #ceddef;
     padding: 5px;
     border-color: #ceddef;
-    border-radius: 5px;
     text-decoration: none;
 }
 
@@ -27,7 +25,6 @@ a:visited {
     color: #ceddef;
     padding: 5px;
     border-color: #ceddef;
-    border-radius: 5px;
     text-decoration: none;
 }
 
@@ -36,7 +33,6 @@ a:hover {
     color: #ceddef;
     padding: 5px;
     border-color: #ceddef;
-    border-radius: 5px;
     text-decoration: none;
 }
 
