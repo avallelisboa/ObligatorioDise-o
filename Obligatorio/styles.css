@@ -339,12 +339,13 @@ img{
 }
 
 #bottomSpan1{
-    width:34%;
+    width:20%;
     height:auto;
 }
 #bottomSpan2 {
-    width: 34%;
+    width: auto;
     height: auto;
+    margin-right:20%;
 }
 
 /*table stuff begins*/
