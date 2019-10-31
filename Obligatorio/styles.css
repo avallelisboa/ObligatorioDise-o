@@ -218,15 +218,24 @@ input[type="checkbox"]{
     width:100%;
 }
 #upLinksRight{
-    float:right;
     position:relative;
     display:inline-block;
+    width:33.33333333%;
+    text-align:right;
+    margin-right:1%;
+}
+#upLinksMiddle {
+    position: relative;
+    display: inline-block;
+    width: 33.33333333%;
+    text-align:center;
 }
 #upLinksLeft {
-    float: left;
-    position:relative;
+    position: relative;
     display: inline-block;
-    margin-left:400px;
+    width:27%;
+    margin-left: 10.33333333%;
+    text-align:left;
 }
 #formListEvents{
     display:block;
@@ -325,15 +334,20 @@ img{
 }
 
 #copyRightText{
-    float:left;
-    margin-left:10px;
+    margin-left:10%;
+    display:block;
+    text-align:center;
 }
 
 #copyRightContainer{
-    width:65%;
+    width:50%;
 }
 
-/*BG img stuff - social network buttons*/
+#imagesFooterContainer{
+    text-align:center;
+    width:50%;
+}
+
 
 #sn1, #sn2, #sn3 {
 	width: 90px;
@@ -369,6 +383,9 @@ img{
 .socialMediaList{
     display:inline;
     padding-bottom:0px;
+    margin-right:5%;
+    height:100%;
+    width:100%;
 }
 
 #emotions{
@@ -380,5 +397,8 @@ img{
 }
 #frequentQuestion{
     margin-left:40px;
+}
+nav{
+    display:flex;
 }
 /*end of social network buttons*/
