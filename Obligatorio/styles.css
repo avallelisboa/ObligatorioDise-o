@@ -330,9 +330,54 @@ img{
 
 #copyRightContainer{
     width:65%;
-    float:left;
 }
 
-#imagesFooterContainer{
-    float:right;
+/*BG img stuff - social network buttons*/
+
+#sn1, #sn2, #sn3 {
+	width: 90px;
+	height: 90px;
+  background-image: url("img/ftp.png");
 }
+
+
+#sn1{
+	background-position: 0 0;
+}
+
+#sn2{
+	background-position: -90px 0;
+}
+
+#sn3{
+	background-position: -180px 0;
+}
+
+#sn1:hover{
+	background-position: 0 -90px;
+}
+
+#sn2:hover{
+	background-position: -90px -90px;
+}
+
+#sn3:hover{
+	background-position: -180px -90px;
+}
+
+.socialMediaList{
+    display:inline;
+    padding-bottom:0px;
+}
+
+#emotions{
+    margin-left:10%;
+}
+
+#help{
+    margin-left:40px;
+}
+#frequentQuestion{
+    margin-left:40px;
+}
+/*end of social network buttons*/
