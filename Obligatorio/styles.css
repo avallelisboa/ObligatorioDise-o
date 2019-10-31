@@ -11,7 +11,14 @@ main{
     flex-direction:row;
     flex-wrap:wrap;
 }
-
+#searchInput {
+    background-image: url(img/iconoBuscar.png);
+    background-position: 2px 3px;
+    background-repeat: no-repeat;
+    background-size:20px;
+    padding-left:5px;
+    width:200px;
+}
 a:link {
     background-color: #5893d4;
     color: #ceddef;
@@ -359,9 +366,9 @@ tr:nth-child(even) {
 /*table stuff ends*/
 
 #copyRightText{
-    margin-left:10%;
+    margin-left:20%;
     display:block;
-    text-align:center;
+    text-align:left;
 }
 
 #copyRightContainer{
