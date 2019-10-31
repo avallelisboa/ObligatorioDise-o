@@ -60,6 +60,7 @@ section{
 }
 #middleArticle{
     width:100%;
+    margin-left:4%;
 }
 #middleSpan1{
     float:right;
@@ -67,7 +68,7 @@ section{
 #middleSpan2{
     float: left;
 }
-#noticiasTittle{
+#News{
     display:inline-block;
     text-align:left;
     margin-left:7%;
@@ -388,7 +389,7 @@ img{
     width:100%;
 }
 
-#emotions{
+#Emotions{
     margin-left:10%;
 }
 
